@@ -1,0 +1,196 @@
+
+
+
+
+.active{
+  color: #5BA9BF !important;
+}
+
+
+$font-family-sans-serif: 'Montserrat', sans-serif;;
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import  '~animate.css';
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+.h1-gradient{
+  background-image: linear-gradient(to left top, yellow, crimson);
+  background-clip: text;
+  color: transparent;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.ls-n{
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.logo{
+  height: 60px;
+}
+
+.row-height{
+  margin-top: 130px;
+}
+
+.img-height{
+  height: 500px;
+}
+
+.text-yellow{
+  color: #FCCF7C;
+}
+
+.text-yellow:hover{
+  background-image: linear-gradient(to left top, yellow, crimson);
+  background-clip: text;
+  color: transparent !important;
+}
+
+.text-yellow-no-gra{
+  color: #FCCF7C;
+}
+
+.text-yellow-no-gra:hover{
+  color: #5BA9BF !important;
+}
+
+.btn-bg-yellow{
+  background: #F6AB68;
+}
+.btn-bg-yellow:hover{
+  color: #F6AB68 !important;
+  background: #5BA9BF !important;
+}
+
+.btn-bg-pink{
+  background: #F5696A;
+}
+
+.btn-bg-pink:hover{
+  color: #F5696A !important;
+  background: #5BA9BF !important;
+}
+
+.mt-h1{
+  margin-top: 130px;
+}
+
+.lh-p{
+  line-height: 50px;
+}
+
+.font-sz{
+  font-size: 20px;
+}
+
+
+.text-pink{
+  color: #F5696A;
+}
+
+.text-pink:hover{
+  color: #5BA9BF !important;
+}
+
+.p-ms-cs{
+  margin-left: 75px;
+}
+
+.btn-ms-cs{
+  margin-left: 70px;
+}
+
+.mt-hero-svg{
+  margin-top: 100px;
+}
+
+.card-width{
+  width: 18rem;
+}
+
+.mt-h1{
+  margin-top: 130px;
+}
+
+.img-height-2{
+  height: 300px;
+  margin-top: 50px;
+}
+
+.img-height-3{
+  margin-top: 50px;
+  height: 323px;
+}
+
+.img-height-4{
+  margin-top: 50px;
+  height: 377px;
+}
+
+.img-height-5{
+  margin-top: 50px;
+  height: 430px;
+}
+
+.ab-text-pink{
+  color: #FB6A55;
+}
+
+.ab-text-yellow{
+  color:#FFC801;
+}
+
+.abg-text-yellow{
+  color: #FEE41B;
+}
+
+.abg-text-pink{
+  color: #E39E67;
+}
+
+.html-text-color{
+  color: #06EA06;
+}
+
+.html-text-color-orange{
+  color: #E44D26;
+}
+
+.ab-text-react-blue{
+  color: #00d8ff;
+}
+
+.ct-txt-gra{
+  background: #FF0000;
+  background: linear-gradient(to right, #FF0000 0%, #FFFF00 25%, #05C1FF 50%, #FFFF00 75%, #FF0000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ct-txt-gra1{
+  background: #00FF00;
+  background: linear-gradient(to left, #00FF00 0%, #FF0000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.ct-txt-gra2{
+  background: #F0B7A1;
+  background: linear-gradient(to right, #F0B7A1 0%, #8C3310 50%, #752201 51%, #BF6E4E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+
+
+
+
