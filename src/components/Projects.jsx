@@ -1,17 +1,20 @@
 import React from 'react';
 import {data} from './data'
+import {v4 as uuidv4} from "uuid";
+
 
 
 const Projects = () => {
     console.log(data)
+    const id = uuidv4();
     return (
         <div className='container'>
             <div className="row mt-5 justify-content-center">
                 {
-                    data.map((i,index)=>{
+                    data.map((i)=>{
                         return (
-                            <div key='index' className='col-lg-4 mt-lg-5 d-flex justify-content-center'>
-                                <div className="card card-width animate__animated mb-3 animate__fadeInUp animate__delay-1s">
+                            <div key='id' className='col-lg-4 mt-lg-5 col-md-6 d-flex justify-content-center'>
+                                <div className="card card-width animate__animated mb-3 animate__fadeInUp">
                                     <img src={i.image} className="card-img-top" alt="..." />
                                         <div className="card-body">
                                             <h5 className="card-title">{i.title}</h5>

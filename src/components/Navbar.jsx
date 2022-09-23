@@ -21,17 +21,20 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li className="nav-item px-lg-5">
-                            <NavLink className="nav-link text-yellow" aria-current="page" to='/' id='home' end>Home</NavLink>
+                        <li className="nav-item px-lg-4">
+                            <NavLink href='home' className="nav-link text-yellow" aria-current="page" to='/' id='home' end>Home</NavLink>
                         </li>
-                        <li className="nav-item px-lg-5">
-                            <NavLink className="nav-link text-yellow" aria-current="page" to='/projects'>Projects</NavLink>
+                        <li className="nav-item px-lg-4">
+                            <NavLink href='projects' className="nav-link text-yellow" aria-current="page" to='/projects'>Projects</NavLink>
                         </li>
-                        <li className="nav-item px-lg-5">
-                            <NavLink className="nav-link text-yellow" aria-current="page" to='/about'>About</NavLink>
+                        <li className="nav-item px-lg-4">
+                            <NavLink href='mySkills' className="nav-link text-yellow" aria-current="page" to='/mySkills'>My Skills</NavLink>
                         </li>
-                        <li className="nav-item px-lg-5">
-                            <NavLink className="nav-link text-yellow" aria-current="page" to='/contact'>Contact</NavLink>
+                        <li className="nav-item px-lg-4">
+                            <NavLink href='about' className="nav-link text-yellow" aria-current="page" to='/about'>About</NavLink>
+                        </li>
+                        <li className="nav-item px-lg-4">
+                            <NavLink href='contact' className="nav-link text-yellow" aria-current="page" to='/contact'>Contact</NavLink>
                         </li>
                     </ul>
                 </div>

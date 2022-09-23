@@ -14,6 +14,9 @@
     "react-router-dom": "^6.4.0",
     "react-scripts": "5.0.1",
     "sass": "^1.54.9",
+    "typed.js": "^2.0.12",
+    "typewriter-effect": "^2.19.0",
+    "uuidv4": "^6.2.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
